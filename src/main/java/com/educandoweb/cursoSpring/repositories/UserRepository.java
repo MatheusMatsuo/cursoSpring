@@ -2,6 +2,7 @@ package com.educandoweb.cursoSpring.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
+
 import com.educandoweb.cursoSpring.entities.User;
 
 public interface UserRepository extends JpaRepository<User, Long> {
